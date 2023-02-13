@@ -1,0 +1,65 @@
+.HistoryShopProduct {
+  width: 100%;
+
+
+}
+
+.imgContainer img{
+  border-radius: 10%;
+  height: 150px;;
+}
+.FlexConatiner {
+  display: flex;
+  background: rgba(225, 225, 225, 0.6);
+  width: 100%;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;;
+  
+}
+.Productflex {
+  display: flex;
+  align-items: center;
+
+}
+
+.imgContainer {
+
+
+
+ 
+}
+.imgcontetn{
+  padding-left: 15px;
+  line-height: 2rem;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  
+}
+
+.Render{
+  padding: 0px 25px;
+   color:#25fcf4;
+  
+}
+.RightFlex{
+  display: flex;
+  align-items: center;
+
+}
+.RightContent{
+  line-height: 2rem;
+}
+@media only  screen and (max-width:680px) {
+  .FlexConatiner{
+    flex-direction: column;
+  } 
+}
+@media only  screen and (max-width:512px) {
+  .Productflex{
+    flex-direction: column;
+  } 
+}

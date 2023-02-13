@@ -1,0 +1,164 @@
+
+
+.MAin-item {
+  text-align: left;
+  align-items: center;
+  padding: 35px 50px;
+}
+
+.MAin-item img {
+  height: 200px;
+  border-radius: 25px 25px 0 25px;
+  border:3px solid #25fcf4;
+  margin-top: 15px;
+}
+
+
+.MAin-item p {
+  font-size: 18px;
+  color: #a0a7be;
+
+  text-transform: capitalize;
+  
+}
+
+.MAin-item h2 {
+  font-size: 26px;
+  color: #25fcf4;
+  margin-top: 35px;
+  font-weight: 100;
+}
+
+.MAin-item button{
+  font-size: 16px;
+  background: linear-gradient(
+    82deg,
+    rgba(34, 193, 195, 0.9640231092436975) 0%,
+    rgba(40, 99, 200, 0.9836309523809523) 100%
+  );
+  text-shadow: -2px -1px 5px rgba(236, 231, 231, 0.6);
+  width: 150px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50px 50px 0 50px;
+  color: #fff;
+}
+
+
+
+@media only screen and (max-width: 1580px)  {
+  .MAin-item img {
+    height: 250px;
+    width: 300px;
+    margin-top: 15px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+
+
+@media only screen and (max-width: 1480px)  {
+  .MAin-item img {
+    height: 200px;
+    width: 270px;
+    margin-top: 15px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+
+@media only screen and (max-width: 1380px)  {
+  .MAin-item img {
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+@media only screen and (max-width: 1280px)  {
+  .MAin-item img {
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .MAin-item img {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+
+}
+
+@media only screen and (max-width: 512px) {
+  .MAin-item img {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+      margin: 30px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .MAin-item img {
+    height: 100px;
+    width: 100px;
+    border-radius:7px;
+    border: 3px solid #25fcf4;
+    margin-top: 15px;
+      margin: 30px;
+    
+  }
+  .MAin-item {
+
+    padding-left: 0px;;
+    /* padding: 35px 50px; */
+  }
+
+}
+
+
+
+

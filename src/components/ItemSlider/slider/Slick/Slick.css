@@ -1,0 +1,24 @@
+.Slider{
+
+    background-color: rgba(20, 20, 20, 0.3);
+    padding: 70px 50px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.Product{
+    text-align: left;
+    align-items: center;
+    padding: 15px;
+    margin: 2px;
+}
+.slick-next::before{
+  content: url("../arrow-left.svg");
+
+
+}
+.slick-prev::before{
+    content: url("../arrow-left.svg");
+    transform: rotate(180deg);
+  
+  }

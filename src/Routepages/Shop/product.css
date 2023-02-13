@@ -1,0 +1,51 @@
+.ShopProduct {
+  text-align: left;
+  align-items: center;
+  padding: 20px;
+}
+
+.ShopProduct img {
+  height: 200px;
+  border-radius: 10%;
+}
+
+.ShopProduct button {
+  font-size: 16px;
+  box-shadow: 0px 0px 12px -2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 0px 12px -2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 12px -2px rgba(255, 255, 255, 0.75);
+  background: transparent;
+  text-shadow: -2px -1px 5px rgba(236, 231, 231, 0.6);
+  border: 1px solid #fff;
+  padding: 10px 24px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 50px 50px 0 50px;
+  color: #fff;
+}
+
+.firstIteam p {
+  font-size: 20px;
+  color: #a0a7be;
+  line-height: 1.9rem;
+  text-transform: capitalize;
+}
+
+.firstIteam h2 {
+  font-size: 26px;
+  color: #25fcf4;
+}
+
+@media only screen and (max-width: 980px) {
+  .ShopProduct {
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .ShopProduct img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+  }
+}

@@ -1,0 +1,155 @@
+
+
+.DonationProduct {
+  text-align: left;
+  align-items: center;
+  padding: 35px 20px;
+}
+
+.DonationProduct img {
+  height: 200px;
+  border-radius: 50px 50px 0 50px;
+  border:5px solid #25fcf4;
+  margin-top: 15px;
+}
+
+
+.DonationProduct p {
+  font-size: 20px;
+  color: #a0a7be;
+  line-height: 1.9rem;
+  text-transform: capitalize;
+}
+
+.DonationProduct h2 {
+  font-size: 20px;
+  color: #25fcf4;
+  margin-top: 35px;
+  font-weight: 100;
+}
+
+
+
+
+
+ span{
+display: flex;
+justify-content:space-between;
+width:80%;}
+.Left 
+{color:#accef7;}
+
+.Right 
+  {width: 70px;
+  height: 70px;
+}
+
+
+
+@media only screen and (max-width: 1580px)  {
+  .DonationProduct img {
+    height: 250px;
+    width: 300px;
+    margin-top: 15px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+
+
+@media only screen and (max-width: 1480px)  {
+  .DonationProduct img {
+    height: 200px;
+    width: 270px;
+    margin-top: 15px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+
+@media only screen and (max-width: 1380px)  {
+  .DonationProduct img {
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+@media only screen and (max-width: 1280px)  {
+  .DonationProduct img {
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .DonationProduct img {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+
+}
+
+@media only screen and (max-width: 512px) {
+  .DonationProduct img {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+      margin: 30px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 10px;;
+    /* padding: 35px 50px; */
+  }
+  
+}
+
+@media only screen and (max-width: 460px) {
+  .DonationProduct img {
+    height: 100px;
+    width: 100px;
+    border-radius:7px;
+    border: 3px solid #25fcf4;
+    margin-top: 15px;
+      margin: 30px;
+    
+  }
+  .DonationProduct {
+
+    padding-left: 0px;;
+    /* padding: 35px 50px; */
+  }
+
+}
